@@ -10,33 +10,29 @@
     
     <!-- 導覽列 -->
     <nav>
-        <img src="./yahoo.png" alt="yahoo">
+        <img src="./img/yahoo.png" alt="yahoo" id="logo">
         <div id="navbar">
             <div id="nav-search">
-                <div id="search-input">
-                    <form action="">
-                        <input type="text" name="" id="" value="搜尋">
-                        <input type="image" src="./search.png" border="0" alt="Submit" />
-                    </form>
-                </div>
-                <div id="write-input">
-                    <button id="pen">
-                        <img src="./pen.png" alt="">
-                    </button>
-                </div>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="搜尋">
+                    <button><img src="./img/search.png" alt=""></button>
+                </form>
+                <button id="pen">
+                    <img src="./img/pen.png" alt="">
+                </button>
                 <div id="weather">
                     <p>33&deg;臺北市</p>
                 </div>
                 <div id="login">
                     <a href="">登入</a>
                 </div>
-                <div id="email">
-                    <img src="./email.png" alt="">
+                <a href="" id="email">
+                    <img src="./img/email.png" alt="">
                     <p>信箱</p>
-                </div>
+                </a>
             </div>
             <div id="nav-link">
-                <div id="link-liat">
+                <div id="link-list">
                     <span>熱搜：</span>
                     <a href="">寶爺中風倒下</a>
                     <a href="">丁允恭</a>
@@ -53,6 +49,276 @@
             </div>
         </div>
     </nav>
+
+    <!-- 本體 -->
+    <div id="box">
+
+        <!-- 左方區域 -->
+        <div id="linkArea">
+
+            <!-- 連結 -->
+            <div id="total-link">
+                <div id="left-link">
+                    <a href="">新聞</a>
+                    <a href="">股市</a>
+                    <a href="">理財</a>
+                    <a href="" class="point">運動</a>
+                    <hr>
+                    <a href="">名人娛樂</a>
+                    <a href="">電影</a>
+                    <a href="">Yahoo TV</a>
+                    <a href="">遊戲</a>
+                    <a href="">動漫</a>
+                    <hr>
+                    <a href="">日本代購</a>
+                    <a href="">字典</a>
+                    <a href="">知識＋</a>
+                    <a href="">3C科技</a>
+                    <a href="">信箱</a>
+                    <a href="">氣象</a>
+                    <a href="">ATM</a>
+                    <a href="">公益</a>
+                    <a href="">找店＋</a>
+                    <a href="">訂餐廳</a>
+                </div>
+                <div id="right-link">
+                    <a href="" class="point">拍賣</a>
+                    <a href="">購物中心</a>
+                    <a href="">超級商城</a>
+                    <a href="">生活團購</a>
+                    <a href="">每日好康</a>
+                    <hr>
+                    <a href="">汽車機車</a>
+                    <a href="">中古車</a>
+                    <a href="">保險</a>
+                    <a href="">時尚美妝</a>
+                    <a href="">房地產</a>
+                    <a href="" class="point">旅遊</a>
+                    <hr>
+                    <a href="">健康</a>
+                    <a href="">星座算命</a>
+                    <a href="">APP下載</a>
+                    <a href="">網路開店</a>
+                    <a href="">買關鍵字</a>
+                    <a href="">網路行銷</a>
+                    <a href="">聯名卡</a>
+                    <a href="">帳號保護</a>
+                </div>
+                <a href="">全部服務></a>
+            </div>
+
+            <!-- 廣告 -->
+            <div id="left-AD">
+                <p>momo購物網</p>
+                <div class="left-oneAD">
+                    <img src="./img/momo1.jpg">
+                    <a href="">滿意寶寶66折起</a>
+                    <a href="">美妝保養$99起</a>
+                </div>
+                <div class="left-oneAD">
+                    <img src="./img/momo2.jpg">
+                    <a href="">TOSIBA下殺</a>
+                    <a href="">五檔特價！限時限量</a>
+                </div>
+
+                <p>lativ</p>
+                <div class="left-oneAD">
+                    <img src="./img/lativ1.jpg">
+                    <a href="">驚喜優惠 2件398</a>
+                    <a href="">限時搶購 零碼5折</a>
+                </div>
+                <div class="left-oneAD">
+                    <img src="./img/lativ2.jpg">
+                    <a href="">溫差推薦 299up</a>
+                    <a href="">經典丹寧 修身美型</a>
+                </div>
+
+                <img src="./img/yahooAPP.jpg" id="app">
+            </div>
+        </div>
+
+        <!-- 主要內容 -->
+        <div id="main">
+
+            <!-- 新聞速報 -->
+            <div id="newest">
+                <div id="label-newest">
+                    <p class="choose-newest">焦點</p>
+                    <p>運動</p>
+                    <p>娛樂</p>
+                    <p>觀點</p>
+                    <p>生活</p>
+                    <p>影音</p>
+                </div>
+                <div id="main-newest">
+                    <div id="image-newest">
+                        <a href="" class="newest-oneImg">
+                            <img src="./img/newest1.jpg" alt="">
+                            <div class="blacktogray"></div>
+                            <p>兩大水庫拉警報！雙創最低紀錄</p>
+                        </a>
+                        <a href="" class="newest-oneImg">
+                            <img src="img/newest2.jpg" alt="">
+                            <div class="blacktogray"></div>
+                            <p>孝子捐款捐口罩 出包地方訝異</p>
+                        </a>
+                        <a href="" class="newest-oneImg">
+                            <img src="./img/newset3.jpg" alt="">
+                            <div class="blacktogray"></div>
+                            <p>川普金正恩27封「情書」曝光</p>
+                        </a>
+                    </div>
+                    <div id="text-newest">
+                        <div class="link-newest">
+                            <a href="">薪加倍兒仍拒接班 總裁轉念了</a>
+                            <p>兒回「錢對我來說不重要」，國內豪華車...</p>
+                        </div>
+                        <div class="link-newest">
+                            <a href="">高中兒涉性侵 警父道歉又刪文</a>
+                            <p>驚傳性侵同學又恐嚇「爸是警察」，草屯...</p>
+                        </div>
+                        <div class="link-newest">
+                            <a href="">哈利梅根背叛黛妃？前員工痛罵</a>
+                            <p>據傳Netflix以1億5000千萬美元簽下，描述...</p>
+                        </div>
+                        <div class="link-newest">
+                            <a href="">網酸爆綠營：丁允恭半年後高升</a>
+                            <p>「先辭後生已是黨的標準作業程序」舉吳...</p>
+                        </div>
+                        <div class="link-newest">
+                            <a href="">共軍恫嚇 2部會罕見接力記者會</a>
+                            <p>外交部已通報友我國家，國防部呼籲...</p>
+                        </div>
+                        <div class="link-newest">
+                            <a href="">IKEA 2021新品新型錄，活出你...</a>
+                            <p>IKEA TAIWAN Sponsored</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 商品 -->
+            <div id="product">
+                <div id="label-product">
+                    <p class="choose-product">購物中心</p>
+                    <p>超級商城</p>
+                    <p>拍賣</p>
+                    <p>每日好康</p>
+                    <a href="">就差這張 網購神卡6%回饋</a>
+                </div>
+                <div id="main-product">
+                    <div class="product-own">
+                        <img src="./img/product1.jpg" alt="">
+                        <div class="productText">
+                            <a href="">adidas秋款</a>
+                            <a href="">Coach秒殺包</a>
+                            <a href="">開衫防曬薄外套</a>
+                            <a href="">LV經典棋盤包</a>
+                        </div>
+                    </div>
+                    <div class="product-own">
+                        <img src="./img/product2.jpg" alt="">
+                        <div class="productText">
+                            <a href="">nike芸芸爆款</a>
+                            <a href="">超氣質雪紡上衣</a>
+                            <a href="">KINAZ美包</a>
+                            <a href="">文藝刺繡蕾絲衣</a>
+                        </div>
+                    </div>
+                    <div class="product-own">
+                        <img src="./img/product3.jpg" alt="">
+                        <div class="productText">
+                            <a href="">美國爆紅壽司包</a>
+                            <a href="">FILA復古鞋</a>
+                            <a href="">條紋印花雪紡衣</a>
+                            <a href="">輕軟牛皮休閒鞋</a>
+                        </div>
+                    </div>
+                    <div class="product-own">
+                        <img src="./img/product4.jpg" alt="">
+                        <div class="productText">
+                            <a href="">fossil特別</a>
+                            <a href="">PUMA涼拖鞋</a>
+                            <a href="">MAGY平底鞋</a>
+                            <a href="">Roots人氣款</a>
+                        </div>
+                    </div>
+                    <div class="product-own">
+                        <img src="./img/product5.jpg" alt="">
+                        <div class="productText">
+                            <a href="">韓系復古雪紡洋</a>
+                            <a href="">AS厚底休閒鞋</a>
+                            <a href="">阿瘦奈米平底鞋</a>
+                            <a href="">tod's豆豆鞋</a>
+                        </div>
+                    </div>
+                    <div class="product-own">
+                        <img src="./img/product6.jpg" alt="">
+                        <div class="productText">
+                            <a href="">絕美雕花氣墊</a>
+                            <a href="">大理石美紋杯</a>
+                            <a href="">老佛爺包出清</a>
+                            <a href="">哀鳳福利品狂殺</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 今日新聞 -->
+            <div id="news">
+                <div id="label-news">
+                    <p class="choose-news">熱門</p>
+                    <p>微熱門</p>
+                    <p>新奇</p>
+                    <p>吃喝玩樂</p>
+                    <p>流行</p>
+                    <p>夯好物</p>
+                </div>
+                <table id="main-news">
+                    <tr>
+                        <td>
+                            <a href="">
+                                <div class="newsImg"></div>
+                                <div class="newsText">
+                                    <h3>媽拿口罩要退貨！藥師驚喊「這不是加利」 內行一看秒懂</h3>
+                                    <p>國家口罩隊成員「加利科技」日前遭踢爆，進口陸製口罩混充國家隊實名制市場，引發民眾譁然，而不少買到加利口罩的民眾...</p>
+                                    <h6>今日新NOWnews</h6>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="">
+                                <div class="newsImg"></div>
+                                <div class="newsText">
+                                    <h3>血管是否阻塞？手指一按就知道 醫曝：初期毫無症狀</h3>
+                                    <p>血管阻塞是一種漸進式的慢性疾病，包括腦中風、心肌梗塞、血栓等心血管疾病，初期幾乎毫無症狀，醫師表示，其實血管阻塞...</p>
+                                    <h6>中時新聞網</h6>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="">
+                                <div class="newsImg"></div>
+                                <div class="newsText">
+                                    <h3>中職／為捕手發聲！李振昌罕發文重批</h3>
+                                    <p>記者王怡翔／綜合報導 中華職棒中信兄弟10日在桃園棒球場和樂天桃猿進行交手，比賽中發生阻擋本壘改判爭議，原本主審判...</p>
+                                    <h6>三立新聞網 setn.com</h6>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        <!-- 右方廣告 -->
+        <div id="ad"></div>
+    </div>
 
 </body>
 </html>
